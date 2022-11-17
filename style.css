@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(155, 155, 155);
+    /* background-image:linear-gradient(to right, rgba(192, 221, 178, 0.884), rgba(141, 228, 212, 0.873)); */
+    font-size: 30px;
+}
+
+.all-inputs {
+    border: 1px solid black;
+    padding: 30px;
+    margin-top: 5vh;
+}
+
+input {
+    font-size: 30px;
+}
+
+button {
+    font-size: 30px;
+    padding: 5px;
+    margin-top: 2vh;
+}
