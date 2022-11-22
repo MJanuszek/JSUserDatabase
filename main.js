@@ -15,17 +15,15 @@ let userId = 0;
 
 const addUserName = function() {
     // extract id:
-    for(let i =0; i<usersData.length; i++){
+   // for(let i =0; i<usersData.length; i++){
         userId = usersData.length;
-    }
-    // create new user object and add to array:
+   // }
+    // create new user object and add it to array:
     userName = inputName.value;
     userSurname = inputSurname.value;
     usersData.push({name:userName, surname: userSurname, id:userId })
 
 };
-// ---------------
-
 
 // -------------------------------
 const addNewUser = function() {
